@@ -13,10 +13,11 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
 			integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-
 		<!-- Custom styles for this template -->
 		<link href="style.css" rel="stylesheet">
+
 	</head>
+
 
 	<body class="text-center">
 
@@ -28,21 +29,21 @@
 				<br>
 
 				<div class="form-floating">
-					<input type="phonenumber" class="form-control" id="phoneNumber" placeholder="Phone Number">
+					<input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number" maxlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
 					<label for="phoneNumber">Phone Number</label>
 				</div>
 				
 				<br>
 				
 				<div class="form-floating">
-					<input type="text" class="form-control" id="textMessage" placeholder="Text Message (Optional)">
+					<textarea type="text" class="form-control" id="textMessage" placeholder="Text Message (Optional)"></textarea>
 					<label for="textMessage">Text Message (Optional)</label>
 				</div>
 
 				<br>
 
 				<button type="button" class="w-100 btn btn-lg btn-primary" onclick="sendToWhatsAppChat()">Send WhatsApp Message</button>
-				<p class="mt-5 mb-3 text-muted">Made By Sarvesh Kedia</p>
+				<p class="mt-5 mb-3 text-muted">Made By <a href="https://twitter.com/sarvesh_is_wow" target="_blank">Sarvesh Kedia</a></p>
 			</form>
 		</main>
 
