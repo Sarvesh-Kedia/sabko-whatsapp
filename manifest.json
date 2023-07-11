@@ -1,6 +1,6 @@
 {
-    "name": "Sabko WhatsApp",
-    "short_name": "Sabko WhatsApp",
+    "name": "WhatsApp Karo",
+    "short_name": "WhatsApp Karo",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#FCF5EB",

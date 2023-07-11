@@ -2,10 +2,13 @@
 
 Work to be done -
 
+- change name to whatsappkaro
+- make button green
+- make input box selected color green
+- makes links green
 - add a blog section
 - make it seo friendly
 - include google ads
-- convert to pwa
 
 
 */

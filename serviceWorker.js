@@ -1,4 +1,4 @@
-const staticSabkoWhatsApp = "subko-whatsapp-v1"
+const whatsappKaro = "whatsapp-karo-v1"
 const assets = [
   "/",
   "/index.html",
@@ -9,7 +9,7 @@ const assets = [
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticSabkoWhatsApp).then(cache => {
+    caches.open(whatsappKaro).then(cache => {
       cache.addAll(assets)
     })
   )
