@@ -2,7 +2,8 @@
 
 Work to be done -
 
-- change name to whatsappkaro
+- change project name to whatsappit
+- buy domain
 - make button green
 - make input box selected color green
 - makes links green
