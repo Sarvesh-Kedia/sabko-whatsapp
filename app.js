@@ -3,7 +3,6 @@
 Work to be done -
 
 - change project name to whatsappit
-- buy domain
 - make button green
 - make input box selected color green
 - makes links green
@@ -31,7 +30,7 @@ function sendToWhatsAppChat() {
     let message = document.getElementById('textMessage').value;
 
 
-    let url =  'https://wa.me/+' + cc + phoneNumber + '?text=' + message
+    let url =  'https://wa.me/+' + cc + phoneNumber + '?text=' + encodeURIComponent(message)
 
     window.open(url,'_blank');
 
