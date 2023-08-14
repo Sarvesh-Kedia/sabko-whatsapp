@@ -47,11 +47,23 @@
 				
 				<br>
 
-				<div class="form-floating">
-					<input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number" maxlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
-					<label for="phoneNumber">Phone Number</label>
+				<div class="row g-2">
+				<div class="col-md-3">
+					<div class="form-floating">
+						<input type="Country Code" class="form-control" id="countryCode" placeholder="91" value="91" maxlength="3" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+						<label for="countryCode">CC</label>
+					</div>
+
 				</div>
-				
+
+				<div class="col-md-9">
+					<div class="form-floating">
+						<input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number" maxlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+						<label for="phoneNumber">Phone Number</label>
+					</div>
+				</div>
+			</div>
+
 				<br>
 				
 				<div class="form-floating">

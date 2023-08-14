@@ -26,10 +26,12 @@ if ("serviceWorker" in navigator) {
 
 function sendToWhatsAppChat() {
 
+    let cc = document.getElementById('countryCode').value;
     let phoneNumber = document.getElementById('phoneNumber').value;
     let message = document.getElementById('textMessage').value;
 
-    let url =  'https://wa.me/91' + phoneNumber + '?text=' + message
+
+    let url =  'https://wa.me/+' + cc + phoneNumber + '?text=' + message
 
     window.open(url,'_blank');
 
